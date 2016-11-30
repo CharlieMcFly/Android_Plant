@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">WaterFlower</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_add_edit_plant">AddEditPlantActivity</string>
+    <string name="title_activity_details_plant">Détails de la plante</string>
+    <string name="aucun_plant">Aucunes plantes dans l\'application</string>
+    <string name="ajout_multiple_plant">Appuyer ici pour ajouter plusieurs plantes</string>
+    <string name="title_hint">Nom de la plante</string>
+    <string name="description_hint">Description de la plante</string>
+    <string name="freq_hint">Fréquence d\'arrosage</string>
+    <string name="add_task">Ajout d\'une plante</string>
+    <string name="edit_task">Modification d\'une plante</string>
+    <string name="successfully_saved_plant_message">Plante ajoutée avec succès !</string>
+    <string name="ok">OK</string>
+    <string name="content_dialog_fail">Vous devez remplir tous les champs pour créer une plante !</string>
+    <string name="title_dialog_fail_save">Erreur d\'ajout</string>
+    <string name="remove">Supprimer</string>
+    <string name="title_dialog_delete">Supression de la plante</string>
+    <string name="content_dialog_remove">Etes vous sûr de vouloir supprimer cette plante ?</string>
+    <string name="annuler">ANNULER</string>
+    <string name="successfully_deleted_plant_message">Plante supprimée avec succès !</string>
+    <string name="successfully_edited_plant_message">Plante modifiée avec succès !</string>
+    <string name="edit_plant">Modification de la plante</string>
+    <string name="action_avancerJour">+ 1 jour</string>
+    <string name="successfully_arrosed_plant_message">Plante arrosée avec succès !</string>
+    <string name="failed_arrosed">Cette plante a déjà été arrosée !</string>
+</resources>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="android.univ.lille1.fr.forplants.plants.PlantsActivity">
+    <item
+        android:id="@+id/action_avancer_jour"
+        android:orderInCategory="100"
+        android:title="@string/action_avancerJour"
+        app:showAsAction="always" />
+</menu>
