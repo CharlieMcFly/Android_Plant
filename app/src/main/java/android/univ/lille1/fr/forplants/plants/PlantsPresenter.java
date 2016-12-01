@@ -19,6 +19,7 @@ public class PlantsPresenter implements PlantsContract.Presenter{
 
     private final PlantsLocalDataSource mRepository;
     private final PlantsContract.View mView;
+    private int listSize;
 
     public PlantsPresenter(PlantsContract.View view, PlantsLocalDataSource repository){
 
@@ -34,7 +35,7 @@ public class PlantsPresenter implements PlantsContract.Presenter{
 
         // Récupérer toutes les plantes
         List<Plant> mesPlants = mRepository.getPlants();
-
+        listSize = mesPlants.size();
         // Afficher la bonne vue
         if(mesPlants == null || mesPlants.size() == 0)
             mView.showNoPlants();
@@ -103,8 +104,10 @@ public class PlantsPresenter implements PlantsContract.Presenter{
 
     @Override
     public void addDayAllPlant() {
-        // Diminuer le jour d'arrosage
-        ActivityUtils.add1day();
+        // Augmenter de 1 jour la date système
+        if(listSize != 0) {
+            ActivityUtils.add1day();
+        }
         loadPlants();
     }
 
