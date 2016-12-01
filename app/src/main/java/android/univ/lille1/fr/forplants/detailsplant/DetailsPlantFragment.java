@@ -96,7 +96,7 @@ public class DetailsPlantFragment extends Fragment implements DetailsPlantContra
 
         mNomPlant.setText(plant.getNom());
         mDescriptionPlant.setText(plant.getDescription());
-        if(plant.getFreq() == 1 )
+        if(plant.getFreq() > 1 )
             mFreqPlant.setText("Cette plante doit être arrosée tous les " + String.valueOf(plant.getFreq()) + " jours.");
         else
             mFreqPlant.setText("Cette plante doit être arrosée tous les jours.");
