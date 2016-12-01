@@ -39,6 +39,9 @@ public class ActivityUtils {
         return DATE_SYSTEM;
     }
 
+    /**
+     * Ajoute un jour a la date systeme (c'est une fake date qui reprends sa valeur à la fin)
+     */
     public static void add1day() {
 
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -53,6 +56,9 @@ public class ActivityUtils {
         Log.d("DATE",DATE_SYSTEM);
     }
 
+    /**
+     * Renvoie le nombre de jours qui sépare 2 dates
+     */
     public static long dayBetweenTwoDate(String dateArrosage){
         SimpleDateFormat myFormat = new SimpleDateFormat("dd/MM/yyyy");
         try {
